@@ -121,6 +121,7 @@ def q12
 
   # 以下に回答を記載
   puts data.dig(:user, :name)
+  
 end
 
 def q13
