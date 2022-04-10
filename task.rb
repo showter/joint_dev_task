@@ -147,19 +147,8 @@ def q15
 
     # 以下に回答を記載
 
-  if data1.key?(:age)
-    p "OK"
-
-  else
-    p "NG"
-  end
-
-  if data2.key?(:age)
-    p "OK"
-
-  else
-    p "NG"
-  end
+   p data1.key?(:age)? "OK" : "NG"
+   p data2.key?(:age)? "OK" : "NG"
 
 end
 
